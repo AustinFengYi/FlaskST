@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Control Panel</title>
+    
+    <link rel="stylesheet" href="static/style.css">
+    <script src="static/jquery.min.js"></script>
+    <script src="static/main.js"></script>
+  </head>
+
+  <body>
+<TD style="FONT-SIZE: 13px; COLOR:#000000; LINE-HIGHT:50px; FONT-FAMILY:Arial,Helvetica,sans-serif">
+
+		<br>
+
+    <legend>Three Stage Toggle</legend>
+		<div class="tri-state-toggle">
+      <div class="toggle-label"></div>
+			<button class="tri-state-toggle-button" id="toggle-button0" onclick="push('toggle',1)">
+		    <span>On</span>
+		  </button>
+
+			<button class="tri-state-toggle-button" id="toggle-button1" onclick="push('toggle',0)">
+			  <span>Off</span>
+		  </button>
+
+		  <button class="tri-state-toggle-button" id="toggle-button2" onclick="push('toggle',2)">
+			  <span>Auto</span>
+		  </button>
+		</div>
+    
+  </body>
+</html>
+

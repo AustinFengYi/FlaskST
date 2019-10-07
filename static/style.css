@@ -1,0 +1,57 @@
+* {
+    font-family: monospace, arial, sans-serif;
+}
+
+legend {
+    font-weight: 900;
+    margin-bottom: .1em;
+}
+
+body, button {
+    font-size: 30px;
+    line-height: 30px;
+}
+
+/* -------------------  CSS of Three-Stage-Toggle   ---------------------- */
+.tri-state-toggle {
+    background: rgba(165,170,174,0.25);
+    box-shadow: inset 0 2px 8px 0 rgba(165,170,174,0.25);
+    border-radius: 24px;
+    display: inline-block;
+    overflow: hidden;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.tri-state-toggle-button {
+    border-radius: 22px;
+    height: 48px;
+    display:inline;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    background-color: transparent;
+    border: 0px solid transparent;
+    margin: 2px;
+    color: #000;
+    cursor: pointer; 
+}
+
+
+.tri-state-toggle-button.active {
+    border: 1px solid rgba(207,207,207,0.6);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1);
+    background-color: green;
+    color: #fff;
+    font-weight: 500;
+}
+
+.tri-state-toggle-button:focus {
+    outline: none;
+}
+
+.tri-state-toggle {
+    display: table;
+}
+
+
